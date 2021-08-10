@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap');
+
+body {
+    margin: 0;
+}
+
+.card {
+    background-color:rgba(142, 90, 190, 0.822);
+    margin:0;
+}
+
+.card__photo {
+  height: 250px;
+  width: 250px;
+  border: 4px solid #ffc700;
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-left: 64px;
+  margin-bottom: -90px;
+}
+
+.card__information{
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.name {
+    font-family: 'Playfair Display', serif;
+    font-size: 58px;
+    color:#000;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 70px;
+}
+
+.occupation {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    padding-top: 60px;
+    padding-left: 60px;
+    background-color:rgb(216, 211, 211)
+}
+
+.div__smaller {
+    padding-right: 40PX;
+}
+
+.line {
+    width: 80px;
+    border-top: 2px solid;
+    margin-top: 8px;
+    border-color: rgba(142, 90, 190, 0.822);
+}
+
+.about__me p,
+.education_part2 {
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.experience_part2,
+.education_part2 {
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.experience_part1,
+.education_part1 {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+}
+
+.experience_part1 h5,
+.education_part1 h5 {
+    color:rgba(142, 90, 190, 0.822);
+    border: 2px solid #ffc700;;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ability {
+    background-color: white;
+    border-radius: 16px;
+    padding: 4px 24px 24px 24px;
+    margin:12px;
+    width: 588px;
+}
+
+.ability h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.ability h2 {
+    font-size: 44px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ability p {
+    font-size: 20px;
+}
+
+.ability li {
+    margin-top: 24px;
+    list-style: none;
+}
+
+.div__larger {
+    margin-left: 24px;
+}
+
+.progress {
+    width: 100%;
+    display: flex;
+}
+
+.barra {
+    width: 20%;
+    height: 4px;
+    margin-top: 3px;
+    background-color: #4200ff;
+}
+
+.incomplete {
+    opacity:0.2;
+}
+
+
+
+
+footer {
+    background-color: black;
+    margin-top: 0;
+    height: 100px;
+}
+
+.text__footer {
+    color: white;
+}
