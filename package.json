@@ -1,0 +1,28 @@
+{
+  "name": "portifolio",
+  "version": "1.0.0",
+  "description": "Portifolio - Juliana OLiveira",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx live-server index.html",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsfoliveira/portifolio.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS"
+  ],
+  "author": "Juliana OLiveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsfoliveira/portifolio/issues"
+  },
+  "homepage": "https://github.com/jsfoliveira/portifolio#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
