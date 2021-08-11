@@ -1,0 +1,57 @@
+
+.ability1,
+.ability2 {
+    display: flex;
+    background-color: white;
+    border-radius: 16px;
+    padding: 4px 24px 24px 24px;
+    margin:12px;
+    width: 258px;
+}
+
+
+.ability1 h3,
+.ability2 h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.ability1 h2,
+.ability2 h2 {
+    font-size: 44px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ability1 p,
+.ability2 p {
+    font-size: 20px;
+}
+
+.ability1 li,
+.ability2 li {
+    margin-top: 24px;
+    list-style: none;
+}
+
+.div__larger {
+    display: flex;
+}
+
+.progress {
+    width: 200px;
+    display: flex;
+}
+
+.barra {
+    width: 20%;
+    height: 4px;
+    margin-top: 3px;
+    background-color: #4200ff;
+}
+
+.incomplete {
+    opacity:0.2;
+}
+
