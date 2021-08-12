@@ -1,7 +1,25 @@
 
+.div__larger {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-ability {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.icons_ability{
+    margin-top: 20px;
+}
+
+.ability1 ul,
+.ability2 ul {
+    padding-left: 0;
+}
+
 .ability1,
 .ability2 {
-    display: flex;
     background-color: white;
     border-radius: 16px;
     padding: 4px 24px 24px 24px;
@@ -9,8 +27,7 @@
     width: 258px;
 }
 
-
-.ability1 h3,
+/*.ability1 h3,
 .ability2 h3 {
     font-size: 30px;
     font-weight: bold;
@@ -22,7 +39,7 @@
     font-size: 44px;
     margin-bottom: 20px;
     text-align: center;
-}
+}*/
 
 .ability1 p,
 .ability2 p {
@@ -33,10 +50,6 @@
 .ability2 li {
     margin-top: 24px;
     list-style: none;
-}
-
-.div__larger {
-    display: flex;
 }
 
 .progress {

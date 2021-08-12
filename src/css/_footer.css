@@ -2,12 +2,17 @@ footer {
     background-color:#000;
     margin-top: 0;
     height: 180px;
+}
 
+.footer-container {
+    justify-content: center;
+   
 }
 
 .text__footer {
     color: white;
     text-align: center;
+    top:50%;
 }
 
 .line__footer {
@@ -17,16 +22,26 @@ footer {
     margin-right: 320px;
 }
 
-.icons__footer {
-    margin: 0px 10px 30px 510px;
-    
+.footer-container{
+    position: relative;
+}
+
+
+.icons__footer{
+    position: absolute;
+    top:50%;
+    left: 40%;
+    transform: translate(-10%, -10%);
+}
+
+.footer-container2 {
+    padding-top: 100px;
 }
 
 .icons__footer ul{
     display: flex;
     list-style: none;
-    margin-top: 0;  
-    padding-right: 16px;
+    margin-top: 0;
 }
 
 .icons__footer a{
@@ -48,5 +63,5 @@ footer {
     padding: 12px 11px;
     font-size: 20px;
     color: #909090;
-    
+    text-align: center;
 }
