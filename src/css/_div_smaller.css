@@ -1,12 +1,13 @@
 main {
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 60px;
     padding-left: 60px;
     background-color:rgb(216, 211, 211)
 }
 
 .div__smaller {
+    width: 43%;
     padding-right: 40PX;
 }
 
