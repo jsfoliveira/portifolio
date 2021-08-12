@@ -46,7 +46,9 @@ main {
 .experience_part1 h5,
 .education_part1 h5 {
     color:rgba(142, 90, 190, 0.822);
-    border: 2px solid #ffc700;;
+    border: 2px solid rgba(142, 90, 190, 0.822);
+    background-color: rgba(245, 245, 220, 0.521);
+    border-radius: 20%;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }

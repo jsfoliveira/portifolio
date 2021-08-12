@@ -1,9 +1,51 @@
 .job1 {
     background-color: white;
     border-radius: 16px;
-    padding: 4px 24px 24px 64px;
     margin-top: 24px;
-    width: 560px;
+    margin-bottom: 20px;
+    padding:8px 28px 18px 55px;
+    width: 400px;
+    height: 360px;
     box-shadow: 10px 10px 10px 5px black;
 }
 
+.jobs p{
+    font-family: "Open Sans", sans-serif;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.jobs h2{
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 8px;
+}
+
+.job1 img {
+    width: 320px;
+    height: 200px;
+    border:2px solid #000;
+    margin: 8px 0px 8px 0px;
+}
+
+
+.jobs button {
+    display:flex;
+    background-color: slateblue;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 4px;
+    font-weight: 600;
+    text-align: center;
+    padding: 8px 24px;
+    transition: 0.3s all ease;
+}
+
+.text-button {
+    text-decoration: none;
+}
+
+.jobs button:hover {
+    color: rgba(142, 90, 190, 0.822);
+    background: unset;
+    border-color: rgba(142, 90, 190, 0.822);;
+}

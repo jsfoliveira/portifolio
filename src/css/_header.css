@@ -1,13 +1,17 @@
 body {
     margin: 0;
+    
 }
 
 .card {
     background-color:rgba(142, 90, 190, 0.822);
-   padding-left: 60px;
-   border-bottom:url('../image/flor-borda.png');
-   
-}
+    padding-left: 60px;
+    border-bottom: 8px solid rgba(197, 170, 223, 0.993);
+    }
+    
+
+
+
 
 .card__photo {
   height: 250px;
@@ -17,6 +21,7 @@ body {
   margin-top: 25px;
   margin-left: 10px;
   margin-bottom: -90px;
+  
 }
 
 .card__information{
