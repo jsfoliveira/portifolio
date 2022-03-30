@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap');
 
-@import "./_div_smaller.css";
+@import "./div_smaller.css";
 
-@import "./_div_larger.css";
+@import "./div_larger.css";
 
-@import "./_header.css";
-@import "./_div_jobs.css";
+@import "./header.css";
+@import "./div_jobs.css";
 
 footer {
   background-color:#000;
